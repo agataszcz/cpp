@@ -1,0 +1,9 @@
+#All at once
+
+clang++ capitalize_main.cpp agata_strings.cpp -o agata_str.exe
+
+
+# Step by step
+Build library
+clang++ -c agata_strings.cpp 
+clang++ capitalize_main.cpp -I. -L. agata_strings.o -o capitalize.exe
