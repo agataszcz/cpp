@@ -1,0 +1,2 @@
+# Compile
+clang++ bits_03.cpp bits_03_main.cpp -o bits_03_main
