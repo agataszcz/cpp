@@ -1,0 +1,2 @@
+# Compile
+clang++ linkedlist.cpp linkedlist_main.cpp
