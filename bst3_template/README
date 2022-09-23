@@ -1,0 +1,2 @@
+# Compile
+clang++ bst3_main.cpp
